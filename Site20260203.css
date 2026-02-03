@@ -1,0 +1,37 @@
+header {
+    text-align: center;
+}
+
+.pesquisa-form {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    text-align: center;
+    padding-left: 20rem;
+}
+
+.pesquisa-input {
+    border-radius: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.pesquisa-button {
+    background-color: #79da79;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.pesquisa-button:hover {
+    background-color: rgb(58, 214, 58) ;
+}
+
