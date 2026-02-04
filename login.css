@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    color: rgba(78, 121, 78, 0.753);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.topo {
+    padding: 20px;
+    background: linear-gradient(#43bad8, white);
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: #303130;
+}
+
+.logo {
+    width: 100px;
+}
+
+.texto-centro {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+main {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.card {
+    display: inline-block;
+    padding: 2rem;
+    border: 3px solid #79da79;
+    border-radius: 8px;
+}
+h2 {
+    color: rgb(41, 43, 42);
+    padding: 2rem;
+    font-weight: 600;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    padding: 0.5rem;
+    margin: 5px;
+    width: 100%;
+    max-width: 600px;    
+}
+
+label {
+    padding: 2rem;
+}
+
+.botao {
+  margin: 5px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #79da79;
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.botao:focus,
+.botao:active,
+.botao:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.barra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(180deg, white, #43bad8);
+  padding: 15px;
+}
+
+.voltar {
+  position: absolute;
+  left: 15px;
+  background-color: #79da79;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.paragrafo-footer {
+  font-size: 14px;
+  color: #222222;
+}
