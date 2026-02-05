@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+/* HEADER */
+.topo {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #43bad8;
+    border-bottom: 5px solid #79da79;
+}
+
+.topo-direita {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end
+}
+
+.petcare-logo {
+    height: 100px;
+}
+
+/* BOTÃO DE LOGIN */
+.login {
+    padding: 10px 20px;
+    background-color: #79da79;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #68ca68;
+}
+
+.background {
+    background-image: url(./Imagens/cachorro-vet.jpg);
+    background-size: cover;
+}
+
+/* MENU DROPDOWN */
+nav {
+    background: #43bad8;
+    padding: 0 20px;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+    transition: 0.3s;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;  
+}
+
+.menu li:hover {
+    background-color: #2fafcf;
+}
+
+.dropbtn {
+    position: relative;
+}
+
+.dropbtn .dropdown-content {
+    position: absolute;
+    background-color: #79da79;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.dropdown-content a {
+    padding: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #68ca68;
+}
+
+.dropbtn:hover .dropdown-content {   
+    height: 256px;
+}
+
+/* MAIN */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.sobre h2 {
+    color: var(--verde-escuro);
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.sobre h3 {
+    color: var(--verde);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.conteudo-lado {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.conteudo-lado .texto {
+    flex: 1;
+}
+
+.conteudo-lado .imagem {
+    flex: 1;
+}
+
+.conteudo-lado img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.texto-final p {
+    margin-bottom: 20px;
+}
+
+.servicos {
+    background-color: #ffffff;
+}
+
+.servicos h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    margin-bottom: 16px;
+}
+
+footer {
+    background: #43bad8;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 5px solid #79da79;
+}

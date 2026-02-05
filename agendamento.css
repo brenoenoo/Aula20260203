@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Oswald", sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #43bad8;
+    border-bottom: 5px solid #79da79;
+    color: #fff;
+}
+
+.logo{
+    width:100px;
+}
+
+.titulo-header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.agendamento-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:80px;
+    padding:80px;
+    flex:1;
+}
+
+.info{
+    max-width:450px;
+}
+
+.icone{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.info h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#333;
+}
+
+.info p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:15px;
+    line-height:1.5;
+}
+
+.card{
+    background: #43bad8;
+    padding:40px;
+    border-radius:10px;
+    width:420px;
+    color:#fff;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card h2{
+    margin-bottom:20px;
+}
+
+.card input{
+    width:100%;
+    padding:12px;
+    margin-bottom:12px;
+    border:none;
+    border-radius:5px;
+}
+
+.botao{
+    display:block;
+    width:100%;
+    text-align:center;
+    background:linear-gradient(90deg,#79da79,#4fe291);
+    padding:15px;
+    border-radius:30px;
+    color:#fff;
+    font-weight:bold;
+    text-decoration:none;
+    margin-top:20px;
+    transition:.3s;
+}
+
+.botao:hover{
+    transform:scale(1.05);
+}
+
+.termos{
+    font-size:12px;
+    font-weight: lighter;
+    margin-top:15px;
+    text-align:center;
+}
+
+footer{
+    background:#43bad8;
+    border-top:5px solid #79da79;
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}

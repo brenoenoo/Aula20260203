@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+
+body {
+    background-color: #ffffff;
+    color: rgba(78, 121, 78, 0.753);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #43bad8;
+    border-bottom: 5px solid #79da79;
+    color: #fff;
+}
+
+.petcare-logo {
+    width: 100px;
+}
+
+.texto-centro {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+main {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border: 3px solid #79da79;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+}
+
+h2 {
+    color: rgb(41, 43, 42);
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    padding: 0.5rem;
+    margin: 5px;
+    width: 100%;
+    max-width: 600px;    
+}
+
+label {
+    padding: 2rem;
+}
+
+.botao {
+  margin: 5px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #79da79;
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.botao:focus,
+.botao:active,
+.botao:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.terms-box {
+    padding: 10px;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #43bad8;
+    border-top: 5px solid #79da79;
+    padding: 15px;
+    font-size: 14px;
+    color: #fff;
+}
