@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+=======
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: "Oswald";
 }
 
@@ -14,6 +18,19 @@
     padding: 10px 40px;
     background-color: #43bad8;
     border-bottom: 5px solid #79da79;
+=======
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 }
 
 .topo-direita {
@@ -26,7 +43,24 @@
     height: 100px;
 }
 
+<<<<<<< HEAD
 /* BOTÃO DE LOGIN */
+=======
+.consultas-lista, 
+.exames-lista, 
+.sobre-nos-lista{
+    padding: 10px;
+    color: #79da79;
+}
+
+.consultas-lista:hover, 
+.exames-lista:hover, 
+.sobre-nos-lista:hover{
+    color: #69c269;
+    cursor: pointer;
+}
+
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 .login {
     padding: 10px 20px;
     background-color: #79da79;
@@ -40,7 +74,11 @@
 }
 
 .login:hover {
+<<<<<<< HEAD
     background-color: #68ca68;
+=======
+    background-color: #43bad8;
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 }
 
 .background {
@@ -48,6 +86,7 @@
     background-size: cover;
 }
 
+<<<<<<< HEAD
 /* MENU DROPDOWN */
 nav {
     background: #43bad8;
@@ -165,9 +204,27 @@ nav {
 
 footer {
     background: #43bad8;
+=======
+.teste {
+    padding: 10px;
+    color: #69c269;
+    border: none;
+}
+
+option {
+    border: none;
+    border-color: white;
+}
+
+footer {
+    background: #79da79;
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
     color: azure;
     text-align: center;
     padding: 20px;
     font-size: 14px;
+<<<<<<< HEAD
     border-top: 5px solid #79da79;
+=======
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 }

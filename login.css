@@ -1,12 +1,24 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: "Oswald";
 }
 
+=======
+}
+
+html, body {
+    height: 100%;
+}
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 
 body {
     background-color: #ffffff;
@@ -19,6 +31,7 @@ body {
 }
 
 .topo {
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     padding: 10px 40px;
@@ -28,6 +41,17 @@ body {
 }
 
 .petcare-logo {
+=======
+    padding: 20px;
+    background: linear-gradient(#43bad8, white);
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: #303130;
+}
+
+.logo {
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
     width: 100px;
 }
 
@@ -47,6 +71,7 @@ main {
 }
 
 .card {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,11 +89,26 @@ h2 {
     font-weight: 600;
     text-align: center;
     padding: 0;
+=======
+    display: inline-block;
+    padding: 2rem;
+    border: 3px solid #79da79;
+    border-radius: 8px;
+}
+h2 {
+    color: rgb(41, 43, 42);
+    padding: 2rem;
+    font-weight: 600;
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 }
 
 section {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    gap: 1rem;
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
@@ -105,6 +145,7 @@ label {
   box-shadow: none;
 }
 
+<<<<<<< HEAD
 .terms-box {
     padding: 10px;
 
@@ -120,4 +161,28 @@ footer {
     padding: 15px;
     font-size: 14px;
     color: #fff;
+=======
+.barra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(180deg, white, #43bad8);
+  padding: 15px;
+}
+
+.voltar {
+  position: absolute;
+  left: 15px;
+  background-color: #79da79;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.paragrafo-footer {
+  font-size: 14px;
+  color: #222222;
+>>>>>>> 5e017b7d4bca1fe54c7e3406eab562aa2d1ef0dd
 }
